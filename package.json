@@ -1,7 +1,7 @@
 {
   "name": "ns-eshop-sale",
   "version": "0.1.0",
-  "description": "A Module that fetches Nintendo Switch's eShop Games on Sale",
+  "description": "An unofficial nodejs API for Nintendo Switch eShop on Sale.",
   "repository": {
     "type": "git",
     "url": "https://github.com/rkJun/ns-eshop-sale"
