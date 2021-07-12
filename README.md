@@ -13,8 +13,10 @@ npm install ns-eshop-sale
 ```js
 import { getSaleGames } from 'ns-eshop-sale';
 
-(async() => {
-  console.log (await getSaleGames());
+(async () => {
+  console.log(
+    await getSaleGames({ country: 'KR', language: 'ko', count: 3, offset: 0 })
+  );
 })();
 ```
 
