@@ -22,7 +22,7 @@ import { getSaleGames } from 'ns-eshop-sale';
 
 ## API
 
-### getSaleGames(apiParams: ApiParams): Promise<ApiResponse>
+### getSaleGames(apiParams: ApiParams): Promise&lt;ApiResponse&gt;
 
 ### ApiParams
 
@@ -36,9 +36,38 @@ import { getSaleGames } from 'ns-eshop-sale';
 ### ApiResponse
 
 ```js
+{
   contents: Content[];
   length: number;
   offset: number;
   total: number;
-
+}
 ```
+
+### ApiResponse Sample
+```json
+{
+  "contents": [
+    {
+      "content_type": "title",
+      "dominant_colors": [
+        "ffffff",
+        "000000",
+        "ff0000"
+      ],
+      "formal_name": "다함께 쿠키요미3 -아버지가 아들에게-",
+      "hero_banner_url": "https://img-eshop.cdn.nintendo.net/i/28210c027b859c248da8a4a17b1d4c7266f0dae81daeec151897ebfd2d2e4d0e.jpg",
+      ...
+      ...
+    },
+    ...
+  ],
+  "length": 10,
+  "offset": 0,
+  "total": 54
+}
+```
+
+## Related
+
+- [Shy07/switch-eshop.md - Nintendo Switch eShop API](https://gist.github.com/Shy07/822eff655ec8da2717f269bc21c65976)
