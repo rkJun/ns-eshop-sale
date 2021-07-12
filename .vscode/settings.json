@@ -20,7 +20,8 @@
     "**/dist": true,
     "**/coverage": true
   },
-  "typescript.referencesCodeLens.enabled": true,
+  "typescript.referencesCodeLens.enabled": false,
   "appService.zipIgnorePattern": [".vscode{,/**}"],
-  "appService.deploySubpath": ""
+  "appService.deploySubpath": "",
+  "editor.tabSize": 2
 }

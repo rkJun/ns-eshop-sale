@@ -9,15 +9,10 @@
   "author": "Juntai Park",
   "license": "MIT",
   "main": "dist/main.js",
-  "bin": {
-    "ns-esho-sale": "dist/bin/main.js"
-  },
   "scripts": {
     "build-ts": "tsc",
     "build": "npm run build-ts && npm run lint",
-    "dev": "ts-node src/main.ts",
     "lint": "tsc --noEmit && eslint \"**/*.{js,ts}\" --quiet --fix",
-    "start": "node dist/bin/main.js",
     "test": "jest --forceExit --coverage --verbose"
   },
   "dependencies": {
@@ -26,7 +21,10 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "@types/node": "^16.3.0",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
     "eslint": "^7.30.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
     "jest": "^27.0.6",
     "prettier": "^2.3.2",
     "ts-jest": "^27.0.3",
