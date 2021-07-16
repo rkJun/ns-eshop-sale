@@ -68,6 +68,9 @@ import { getSaleGames } from 'ns-eshop-sale';
 }
 ```
 
+## Samples using this api
+- https://ns-eshop-sale-nuxt.rkjun.com/ [Git Repo](https://github.com/rkJun/ns-eshop-sale-nuxt)
+
 ## Related
 
 - [Shy07/switch-eshop.md - Nintendo Switch eShop API](https://gist.github.com/Shy07/822eff655ec8da2717f269bc21c65976)
