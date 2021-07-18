@@ -68,6 +68,9 @@ import { getSaleGames } from 'ns-eshop-sale';
 }
 ```
 
+## Known Issues
+- This API uses 'ec.nintendo.com' and available on the backend. (it has CORS issue on the client).
+
 ## Samples using this api
 - https://ns-eshop-sale-nuxt.rkjun.com/ [Git Repo](https://github.com/rkJun/ns-eshop-sale-nuxt)
 
