@@ -1,5 +1,8 @@
 # ns-eshop-sale
 
+[![npm version](https://badge.fury.io/js/ns-eshop-sale.svg)](https://badge.fury.io/js/ns-eshop-sale)
+![npm](https://img.shields.io/npm/dm/ns-eshop-sale)
+
 > `ns-eshop-sale` is a package written in Node.js that fetches Nintendo Switch's eShop Games on Sale.
 
 ## Installation
