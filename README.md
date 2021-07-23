@@ -5,6 +5,9 @@
 
 > `ns-eshop-sale` is a package written in Node.js that fetches Nintendo Switch's eShop Games on Sale.
 
+Warning : The Nintendo API URL is not currently valid.
+This API is currently unavailable. [link](https://github.com/rkJun/ns-eshop-sale/issues/1)
+
 ## Installation
 
 ```
