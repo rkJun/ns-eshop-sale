@@ -5,6 +5,7 @@
   },
   "eslint.validate": ["javascript", "typescript"],
   "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
   "[javascript]": {
     "editor.formatOnSave": false
   },
